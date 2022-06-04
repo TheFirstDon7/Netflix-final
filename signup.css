@@ -1,0 +1,163 @@
+:root {
+	--primary-color: #e50914;
+	--dark-color: #141414;
+	--light-color: #f4f4f4;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: white;
+	color: white;
+	min-height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: rgb(0, 0, 0);
+}
+
+a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+p {
+	color: #000;
+	margin: 0.5rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+
+.showcase-signup{
+    position: relative;
+	z-index: 2;
+	height: 80px;
+}
+
+.showcase-top-signup img {
+	width: 180px;
+line-height: 75px;
+    position: relative;
+	top: 3%;
+	left: 3%;
+    transform: translate(-50);
+
+}
+
+.showcase-top-signup a {
+	position: absolute;
+    line-height: 75px;
+	top: 60%;
+	right: 0;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 18px;
+} 
+
+
+.showcase-content-signup{
+    position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.showcase-content-signup img{
+	width: 200px;
+	
+} 
+
+.showcase-content-signup h1{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.showcase-content-signup h2{
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.footer-container{
+	background-color: rgb(230, 228, 228);
+    padding-bottom: 4rem;
+}
+.footer{
+	height: 10vh;
+	background-color: rgb(230, 228, 228);
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10rem;
+}
+.footer1{
+	flex-direction: row;
+	display: flex;
+}
+
+
+
+
+/* Buttons */
+.btn {
+	display: inline;
+	
+	color: #fff;
+	padding: 0.4rem 1.3rem;
+	font-size: 1rem;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	margin-right: 0.5rem;
+	transition: opacity 0.2s ease-in;
+
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+.btn-rounded {
+	border-radius: 5px;
+    color: #000;
+}
+
+.btn-xl {
+	font-size: 1rem;
+	padding: 1rem 9rem;
+    background: var(--primary-color);
+	min-height: 64px;
+    font-weight: 500;
+    font-size: 24px;
+	
+}
+
+.btn-lg {
+	font-size: 1rem;
+	padding: 0.8rem 1.3rem;
+	text-transform: uppercase;
+}
+
+.btn-icon {
+	margin-left: 1rem;
+}
