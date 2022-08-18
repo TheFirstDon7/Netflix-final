@@ -11,7 +11,7 @@
 }
 
 body {
-font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: #000;
 	color: white;
@@ -72,10 +72,10 @@ img {
 
 .showcase-top img {
 	width: 160px;
-    position: relative;
+	position: relative;
 	top: 3%;
 	left: 3%;
-    transform: translate(-50);
+	transform: translate(-50);
 
 }
 
@@ -86,7 +86,7 @@ img {
 	transform: translate(-50%, -50%);
 }
 
-.showcase-content{
+.showcase-content {
 	position: relative;
 	margin: auto;
 	display: flex;
@@ -96,74 +96,75 @@ img {
 	text-align: center;
 	margin-top: 9rem;
 	z-index: 2;
-	
+
 
 }
 
-.showcase-content h1{
+.showcase-content h1 {
 	font-weight: 700;
 	font-size: 3.125rem;
 }
 
-.showcase-content h2{
+.showcase-content h2 {
 	font-weight: 400;
 	font-size: 1.625rem;
 }
 
-.showcase-content h3{
+.showcase-content h3 {
 	font-weight: 400;
 
 }
 
-.register{
+.register {
 	display: inline;
-	
+
 }
 
-.email{
-	
-	padding:1rem 1rem;
+.email {
+
+	padding: 1rem 1rem;
 	padding-right: 17rem;
-	
+
 }
 
-.hr1{
+.hr1 {
 	color: rgb(77, 75, 75);
 	height: 8px;
 	background-color: rgb(75, 75, 75);
-	
+
 }
 
-.tab-1{
+.tab-1 {
 	height: 50vh;
 	width: 100%;
 	line-height: 1.1;
-	
-}
-.tab-1 img{
-	position: relative;
-	width: 530px;
-   left: 45rem;
-   
+
 }
 
-.tab-1text{
+.tab-1 img {
+	position: relative;
+	width: 530px;
+	left: 45rem;
+
+}
+
+.tab-1text {
 	position: absolute;
 	margin-top: 9rem;
 	left: 8rem;
-	
+
 }
 
-.tab-1 h1{
+.tab-1 h1 {
 	font-size: 3.125rem;
 }
 
-.tab-1 h2{
+.tab-1 h2 {
 	font-size: 1.625rem;
-    font-weight: 400
+	font-weight: 400
 }
 
-.tab-1 video{
+.tab-1 video {
 	margin-top: 1rem;
 	width: 400px;
 	height: 350px;
@@ -171,81 +172,82 @@ img {
 	left: 49rem;
 }
 
-.hr2{
+.hr2 {
 	color: rgb(77, 75, 75);
 	height: 8px;
 	background-color: rgb(75, 75, 75);
 	margin-top: 9rem;
 }
 
-.tab-2{
+.tab-2 {
 	height: 50vh;
 	width: 100%;
 	line-height: 1.1;
 }
 
-.tab-2text{
+.tab-2text {
 	position: absolute;
 	margin-top: 9rem;
 	left: 43rem;
-	
+
 }
 
-.tab-2 img{
+.tab-2 img {
 	position: relative;
 	width: 500px;
 	margin-top: 2rem;
 	left: 4rem;
-   
+
 }
 
-.tab-2 h1{
+.tab-2 h1 {
 	font-size: 3.125rem;
 }
 
-.tab-2 h2{
+.tab-2 h2 {
 	font-size: 1.625rem;
-    font-weight: 400;
+	font-weight: 400;
 }
 
-.hr3{
+.hr3 {
 	color: rgb(77, 75, 75);
 	height: 8px;
 	background-color: rgb(75, 75, 75);
-	margin-top: 9rem;	
+	margin-top: 9rem;
 }
 
-.tab-3{
+.tab-3 {
 	height: 50vh;
 	width: 100%;
 	line-height: 1.1;
-	
-}
-.tab-3 img{
-	position: relative;
-	width: 530px;
-   left: 45rem;
-   margin-top: 2rem;
-   
+
 }
 
-.tab-3text{
+.tab-3 img {
+	position: relative;
+	width: 530px;
+	left: 45rem;
+	margin-top: 2rem;
+
+}
+
+.tab-3text {
 	position: absolute;
 	margin-top: 9rem;
 	left: 8rem;
-	
+
 }
 
-.tab-3 h1{
+.tab-3 h1 {
 	font-size: 3.125rem;
 }
 
-.tab-3 h2{
+.tab-3 h2 {
 	font-size: 1.625rem;
-    font-weight: 400
+	font-weight: 400
 }
 
-.tab-3 video{
+.tab-3 video {
 	margin-top: 1rem;
 	width: 300px;
 	height: 300px;
@@ -253,53 +255,55 @@ img {
 	left: 52rem;
 }
 
-.hr4{
+.hr4 {
 	color: rgb(77, 75, 75);
 	height: 8px;
 	background-color: rgb(75, 75, 75);
-	margin-top: 9rem;	
+	margin-top: 9rem;
 }
 
-.tab-4{
+.tab-4 {
 	height: 50vh;
 	width: 100%;
 	line-height: 1.1;
 }
 
-.tab-4text{
+.tab-4text {
 	position: absolute;
 	margin-top: 9rem;
 	left: 43rem;
-	
+
 }
 
-.tab-4 img{
+.tab-4 img {
 	position: relative;
 	width: 500px;
 	margin-top: 3rem;
 	left: 5rem;
-   
+
 }
 
-.tab-4 h1{
+.tab-4 h1 {
 	font-size: 3.125rem;
 }
 
-.tab-4 h2{
+.tab-4 h2 {
 	font-size: 1.625rem;
-    font-weight: 400;
+	font-weight: 400;
 }
-.hr5{
+
+.hr5 {
 	color: rgb(77, 75, 75);
 	height: 8px;
 	background-color: rgb(75, 75, 75);
 	margin-top: 9rem;
 }
 
-.tab5{
+.tab5 {
 	height: 100vh;
 }
-.tab5-text{
+
+.tab5-text {
 	position: relative;
 	left: 25rem;
 	margin-top: 2rem;
@@ -309,95 +313,130 @@ img {
 
 
 
-summary{
+summary {
 	position: relative;
 	padding: 1rem;
 	left: 14rem;
 	background-color: #302d2d;
-margin-top: 1rem;
-cursor: pointer;
-font-weight: 400;
-font-size: 2rem;
+	margin-top: 1rem;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 2rem;
 
-width: 70%;
-	
+	width: 70%;
+
 }
 
-.content{
+.content {
 	background-color: #302d2d;
 	font-weight: 400;
 	position: relative;
-font-size: 2rem;
-left: 14rem;
-width: 70%;
+	font-size: 2rem;
+	left: 14rem;
+	width: 70%;
 }
 
-.bottom-signin{
+.bottom-signin {
 	position: relative;
 	left: 25rem;
 	margin-top: 3rem;
 }
-.hr6{
+
+.hr6 {
 	color: rgb(77, 75, 75);
 	height: 8px;
-	background-color: rgb(75, 75, 75);	
+	background-color: rgb(75, 75, 75);
 	margin-top: 2rem;
 }
 
-.site-footer-wrapper{
-    min-width: 190px;
-    padding-bottom: 20px;
-    margin-top: 80px;
-    font-size: 1em;
-    position: relative;
-    background-color: #000;
-    opacity: 0.8;
+.site-footer-wrapper {
+	min-width: 190px;
+	padding-bottom: 20px;
+	margin-top: 80px;
+	font-size: 1em;
+	position: relative;
+	background-color: #000;
+	opacity: 0.8;
 }
 
-.site-footer{
-    color: #757575;
-    background-color: #000;
-    padding: 30px 0px;
-    margin: 0 auto;
-    width: 90%;
+.site-footer {
+	color: #757575;
+	background-color: #000;
+	padding: 30px 0px;
+	margin: 0 auto;
+	width: 90%;
 }
 
-.footer-top{
-    padding: 0;
-    margin: 0 0 30px;
-}
-.footer-top:hover{
-    text-decoration: underline;
+.footer-top {
+	padding: 0;
+	margin: 0 0 30px;
 }
 
-ul.structural{
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+.footer-top:hover {
+	text-decoration: underline;
 }
 
-ul.structural{
-    list-style: none;
-    margin-left: 0;
+ul.structural {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+ul.structural {
+	list-style: none;
+	margin-left: 0;
 }
 
 
-.footer-link{
-    max-width: 1000px;
-    font-size: 13px;
-    box-sizing: border-box;
+.footer-link {
+	max-width: 1000px;
+	font-size: 13px;
+	box-sizing: border-box;
 }
 
-.footer-link-item{
-    box-sizing: border-box;
-    padding: 0;
-    margin-bottom: 16px;
-    display: inline-block;
-    min-width: 100px;
-    padding-right: 12px;
-    vertical-align: top;
+.footer-link-item {
+	box-sizing: border-box;
+	padding: 0;
+	margin-bottom: 16px;
+	display: inline-block;
+	min-width: 100px;
+	padding-right: 12px;
+	vertical-align: top;
 }
 
+@media(max-width:600px) {
+	.showcase-content h1 {
+		font-weight: 700;
+		font-size: 2.125rem;
+	}
+
+	.showcase-content h2 {
+		font-weight: 400;
+		font-size: 1.625rem;
+	}
+
+	.showcase-content h3 {
+		font-weight: 300;
+
+	}
+
+	.register {
+		display: block;
+
+	}
+
+	.email {
+
+		padding: 1rem 1rem;
+		padding-right: 9rem;
+
+	}
+
+
+
+
+
+}
 
 
 
@@ -445,7 +484,7 @@ ul.structural{
 .btn-xl {
 	font-size: 1rem;
 	padding: 1rem 1rem;
-	
+
 }
 
 .btn-lg {
